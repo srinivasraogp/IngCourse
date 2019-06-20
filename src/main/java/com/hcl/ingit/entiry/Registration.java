@@ -22,8 +22,7 @@ public class Registration implements Serializable {
 		this.courseName = courseName;
 	}
 
-	public Registration(Long id, long studentId, String firstName, String lastName, String gender, String city,
-			String email, long contactNo, long courseId, String courseName) {
+	public Registration(Long id, long studentId,long courseId, String courseName) {
 		super();
 		this.id = id;
 		this.studentId = studentId;
