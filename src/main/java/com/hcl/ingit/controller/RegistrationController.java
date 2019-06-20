@@ -24,9 +24,6 @@ public class RegistrationController {
 	@Autowired
 	RegistrationServiceIntf registrationServiceIntf;
 	
-	private Logger logger = LoggerFactory.getLogger(RegistrationController.class);
-
-	
 	@PostMapping("/registration")
 	public ResponseEntity<RegistrationResponseDTO> registerStudent (@RequestBody RegistrationRequestDTO registrationRequestDto){
 		
