@@ -18,7 +18,7 @@ public class RegistrationServiceImpl implements RegistrationServiceIntf {
 	RegistrationRepository registrationRepository;
 	
 	
-	public RegistrationResponseDTO registerUser(RegistrationRequestDTO registrationRequestDto) {
+	public RegistrationResponseDTO registerStudent(RegistrationRequestDTO registrationRequestDto) {
 
 	 {
 			RegistrationResponseDTO registrationResponseDto= new RegistrationResponseDTO();

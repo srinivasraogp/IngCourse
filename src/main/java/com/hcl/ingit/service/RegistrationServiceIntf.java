@@ -5,6 +5,6 @@ import com.hcl.ingit.entiry.RegistrationResponseDTO;
 
 public interface RegistrationServiceIntf {
 
-	RegistrationResponseDTO registerUser(RegistrationRequestDTO registrationRequestDto);
+	RegistrationResponseDTO registerStudent(RegistrationRequestDTO registrationRequestDto);
 
 }
