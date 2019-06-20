@@ -1,7 +1,4 @@
 package com.hcl.ingit.testcontroller;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -15,7 +12,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hcl.ingit.controller.LoginController;
 import com.hcl.ingit.controller.RegistrationController;
 import com.hcl.ingit.entiry.RegistrationRequestDTO;
 import com.hcl.ingit.entiry.RegistrationResponseDTO;

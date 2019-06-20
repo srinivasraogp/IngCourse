@@ -26,7 +26,7 @@ public class RegistrationController {
 	@PostMapping("/registration")
 	public ResponseEntity<RegistrationResponseDTO> registerStudent (@RequestBody RegistrationRequestDTO registrationRequestDto){
 		
-		RegistrationResponseDTO registrationResponseDto = registrationServiceIntf.registerUser(registrationRequestDto);
+		RegistrationResponseDTO registrationResponseDto = registrationServiceIntf.registerStudent(registrationRequestDto);
 		return new ResponseEntity<>(registrationResponseDto, HttpStatus.CREATED);
 		
 		
