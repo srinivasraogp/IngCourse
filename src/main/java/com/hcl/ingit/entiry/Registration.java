@@ -20,8 +20,16 @@ public class Registration implements Serializable {
 	private String email;
 	private long contactNo ;
 	private long courseId;
+	private String courseName;
+	public String getCourseName() {
+		return courseName;
+	}
+	public void setCourseName(String courseName) {
+		this.courseName = courseName;
+	}
+
 	public Registration(Long id, long studentId, String firstName, String lastName, String gender, String city,
-			String email, long contactNo, long courseId) {
+			String email, long contactNo, long courseId, String courseName) {
 		super();
 		this.id = id;
 		this.studentId = studentId;
@@ -32,6 +40,7 @@ public class Registration implements Serializable {
 		this.email = email;
 		this.contactNo = contactNo;
 		this.courseId = courseId;
+		this.courseName = courseName;
 	}
 	public Long getId() {
 		return id;
@@ -92,6 +101,6 @@ public class Registration implements Serializable {
 	}
 	public Registration() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
+
 }
