@@ -92,6 +92,6 @@ public class Registration implements Serializable {
 	}
 	public Registration() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 }
