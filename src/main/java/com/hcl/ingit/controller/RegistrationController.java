@@ -14,8 +14,6 @@ import com.hcl.ingit.entiry.RegistrationRequestDTO;
 import com.hcl.ingit.entiry.RegistrationResponseDTO;
 import com.hcl.ingit.service.RegistrationServiceIntf;
 
-
-
 @RestController
 @RequestMapping("/ingit")
 @CrossOrigin(allowedHeaders = { "*", "*/" }, origins = { "*", "*/" })
