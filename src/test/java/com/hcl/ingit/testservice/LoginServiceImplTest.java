@@ -43,7 +43,7 @@ public class LoginServiceImplTest {
 			if(registration != null) {
 				  BeanUtils.copyProperties(registration, loginRes);
 				 loginRes=loginServiceIml.validateLogin(1L);
-				 Assert.assertEquals(registration.getFirstName(), student.getFirstName());
+				 Assert.assertEquals(registration.getStudentId(), student.getStudentId());
 			 }
 						 Assert.assertNotEquals(registration,null);
 					}
